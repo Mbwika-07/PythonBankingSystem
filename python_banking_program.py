@@ -4,7 +4,6 @@ def show_balance():
     print("***********************************************************************************************************")
 
 
-
 def deposit():
     print("***********************************************************************************************************")
     amount = float(input("Enter amount you wish to deposit: "))
@@ -16,8 +15,9 @@ def deposit():
     else:
         print(f"You have deposited Ksh. {amount}")
         return amount
-
-
+    
+    
+    
 
 def withdraw():
     print("***********************************************************************************************************")
@@ -33,8 +33,6 @@ def withdraw():
     else:
         print(f"You have withdrawn Ksh. {amount}")
         return amount
-
-
 
 
 balance = 0
